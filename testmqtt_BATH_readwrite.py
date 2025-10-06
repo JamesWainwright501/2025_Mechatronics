@@ -47,7 +47,7 @@ while(1):
     # Start a try in case we have an error
     try:
         # Every on half second
-        time.sleep(2)
+        time.sleep(1)
         
         # Publish the value (integer) as a string. All messages are strings
         client.publish(MainTopic+"5",str(val))
