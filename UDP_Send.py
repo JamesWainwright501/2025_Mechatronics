@@ -10,7 +10,8 @@ This is an example to send data as a UDP datagram.
 import socket   # This library will allow you to communicate over the network
 
 # This is the IP address of the machine that the data will be send to
-UDP_IP = "127.0.0.1"
+#UDP_IP = "127.0.0.1"
+UDP_IP = "172.26.236.65" # Oskar's Laptop
 
 # This is the RENOTE port the machine will reply on (on that machine this is the value for the LOCAL port)
 UDP_PORT = 50001
